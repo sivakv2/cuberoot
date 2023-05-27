@@ -11,7 +11,7 @@
 # add 5
 # add 2
 
-*n * n * 5 * 2 * n + 5 + 2
+#*n * n * 5 * 2 * n + 5 + 2
 
 #n^3 * 10 + 7
 
@@ -28,11 +28,15 @@ value^(1/3)
 
 #write function
 
-rv <- function (x){
-  x = x ^ (1/3)
-  return(x)
-}
+rv <- function (x)
+        {
+          x = x ^ (1/3)
+          return(x)
+        }
 
+rv(27)
+
+rv(729)
 
 
 
